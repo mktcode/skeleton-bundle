@@ -21,11 +21,11 @@ class NavigationListener
         $request = $this->requestStack->getCurrentRequest();
 
         $arrModules['system']['modules'] = array_merge([
-            'hello' => [
+            'pwa' => [
                 'label' => 'PWA',
                 'class' => 'navigation',
-                'href' => $this->router->generate('mktcode_contao_pwa_bundle_config'),
-                'isActive' => $request->attributes->get('_route') === 'mktcode_contao_pwa_bundle_config'
+                'href' => $this->router->generate('mktcode_contaopwa_config_index'),
+                'isActive' => $request->attributes->get('_route') === 'mktcode_contaopwa_config_index'
             ]
         ], $arrModules['system']['modules']);
 

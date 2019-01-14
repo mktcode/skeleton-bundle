@@ -16,7 +16,7 @@ services:
         resource: '../../Controller'
         tags: ['controller.service_arguments']
 
-    Mktcode\Contao\PwaBundle\EventListener\NavigationListener:
+    Mktcode\ContaoPwaBundle\EventListener\NavigationListener:
         tags:
             - { name: contao.hook, hook: getUserNavigation }
 
