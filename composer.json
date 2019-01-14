@@ -1,16 +1,16 @@
 {
-    "name": "mktcode/contao-skeleton-bundle",
+    "name": "mktcode/contao-pwa-bundle",
     "type": "contao-bundle",
-    "description": "Skeleton for custom Contao 4 bundles",
+    "description": "Contao 4 bundle to turn your website into a progressive web app",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
-            "name": "Leo Feyer",
-            "homepage": "https://github.com/leofeyer"
+            "name": "Markus Kottländer",
+            "homepage": "https://markus-kottlaender.de"
         }
     ],
     "require": {
-        "php": "^5.6 || ^7.0",
+        "php": "^7.1",
         "contao/core-bundle": "dev-master",
         "symfony/framework-bundle": "^4.2"
     },
@@ -29,20 +29,20 @@
         "symfony/phpunit-bridge": "^3.4.5"
     },
     "extra": {
-        "contao-manager-plugin": "Contao\\SkeletonBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Mktcode\\ContaoPwaBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\": "src/"
+            "Mktcode\\ContaoPwaBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\Tests\\": "tests/"
+            "Mktcode\\ContaoPwaBundle\\Tests\\": "tests/"
         }
     },
     "support": {
-        "issues": "https://github.com/contao/skeleton-bundle/issues",
-        "source": "https://github.com/contao/skeleton-bundle"
+        "issues": "https://github.com/mktcode/contao-pwa-bundle/issues",
+        "source": "https://github.com/mktcode/contao-pwa-bundle"
     }
 }

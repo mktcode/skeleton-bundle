@@ -1,0 +1,3 @@
+mktcode_contao_pwa_bundle:
+    resource: "@MktcodeContaoPwa/Controller"
+    type: annotation

@@ -1,21 +1,21 @@
 <?php
 
 /*
- * This file is part of [package name].
+ * This file is part of the Contao PWA Bundle.
  *
  * (c) John Doe
  *
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\SkeletonBundle\DependencyInjection;
+namespace Mktcode\ContaoPwaBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class ContaoSkeletonExtension extends Extension
+class MktcodePwaExtension extends Extension
 {
     /**
      * {@inheritdoc}

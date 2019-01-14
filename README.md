@@ -13,8 +13,8 @@ Download the skeleton bundle:
 ```bash
 wget https://github.com/contao/skeleton-bundle/archive/master.zip
 unzip master.zip
-mv skeleton-bundle-master [package name]
-cd [package name]
+mv skeleton-bundle-master the Contao PWA Bundle
+cd the Contao PWA Bundle
 ```
 
 ## Customize
